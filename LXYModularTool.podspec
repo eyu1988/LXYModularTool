@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "LXYCacheManager", "LXYCacheManager/**/*.{h,m}","LXYCommonTool", "LXYCommonTool/**/*.{h,m}"
+  
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -118,12 +119,12 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-
+  s.vendored_libraries = "LXYCacheManager", "LXYCacheManager/**/*.{a}","LXYCommonTool", "LXYCommonTool/**/*.{a}"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
