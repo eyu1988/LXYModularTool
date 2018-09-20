@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LXYCacheManager", "LXYCacheManager/**/*.{h,m}","LXYCommonTool", "LXYCommonTool/**/*.{h,m}"
+  s.source_files  = "LXYCacheManager", "LXYCacheManager/**/*.{h,m}"
   
   #s.exclude_files = "Classes/Exclude"
 
@@ -124,7 +124,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-  s.vendored_libraries = "LXYCacheManager", "LXYCacheManager/**/*.{a}","LXYCommonTool", "LXYCommonTool/**/*.{a}"
+  s.vendored_libraries = "LXYCacheManager", "LXYCacheManager/**/*.{a}"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
